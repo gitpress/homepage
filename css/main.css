@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/***********************************
+ * Global Styles
+ * ********************************/
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #FF851B;
+}
+
+a:hover{
+  cover: #FF851B;
+}
+
+.brand{
+  background-color:#001F3F;/* NAVY */
+}
+
+.second-brand{
+  background-color:#FF851B;/* Orange */
+}
+
+.light-text{
+  color:#fff;
+}
+
+.ten-padding{
+  padding:10px;
+}
+
+.white-background{
+  background-color:#fff;
+}
+
+.no-margin{
+  margin:0;
+}
+/***********************************
+ * Bootstrap Overrides
+ * ********************************/
+
+.navbar-default{
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #001F3F;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #001F3F;
+}
+
+.navbar-default .navbar-brand {
+color: #001F3F;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #FF851B;
+  background-color: transparent;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+  padding: 8px;
+}
+
+.jumbotron{
+  padding:80px;
+}
+
+.btn-link{
+  color:#001F3F;
+}
+
+.btn-link:hover{
+  color: #FF851B;
+  text-decoration:none;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #FF851B;
+  background-color: transparent;
+}
+
+.jumbotron{
+  background-image: url('../img/girl-develop-it.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 10px solid #001F3F;
+}
+
+.btn-warning{
+  background-color:#FF851B;
+  border-color:#FF851B;
+  padding: 10px 30px
+}
+/***********************************
+ * Bootstrap Extensions
+ * ********************************/
+
+i.fa{
+  color:#001F3F;
+}
+
+.btn-git{
+  border:5px solid #FF851B;
+  border-radius:8px;
+}
+
+a.btn-git {
+  color: #FF851B;
+}
+
+a.btn-git:hover {
+  color: #001F3F;
+  border-color: #001F3F;
+}
+
+#call-to-action.btn-git{
+  padding: 10px 90px;
+}
+
+/***********************************
+ * ID Sections
+ * ********************************/
+
+#gitpress-benefits-user{
+  padding:50px;
+  background-color:#142C44;
+  color:#fff;
+  border-top: 10px solid #001F3F;
+  border-bottom: 10px solid #001F3F;
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+
+#gitpress-search{
+  margin-bottom:10px;
+  padding-bottom:15px;
+}
+
+#gitpress-search-border{
+  background-color:#FF851B;
+  padding:15px;
+  border-radius:8px;
+}
