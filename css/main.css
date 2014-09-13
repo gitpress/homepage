@@ -23,6 +23,10 @@ a:hover{
   background-color:#001F3F;/* NAVY */
 }
 
+.brand-header{
+  background-color:rgba(0, 31, 63, 0.77);
+}
+
 .second-brand{
   background-color:#FF851B;/* Orange */
 }
@@ -45,6 +49,10 @@ a:hover{
 /***********************************
  * Bootstrap Overrides
  * ********************************/
+
+.btn, .btn-lg{
+  border-radius:0px;
+}
 
 .navbar-default{
   background-color: #fff;
@@ -152,4 +160,11 @@ a.btn-git:hover {
   background-color:#FF851B;
   padding:15px;
   border-radius:8px;
+}
+
+#gitpress-we-are{
+  padding: 50px;
+  border-top: 5px solid #FF851B;
+  border-bottom: 5px solid #FF851B;
+  background-color: #F0EDEA;
 }
